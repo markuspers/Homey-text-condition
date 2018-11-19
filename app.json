@@ -1,0 +1,44 @@
+{
+  "id": "markus.flows.cast",
+  "version": "0.1.0",
+  "compatibility": ">=1.5.0",
+  "sdk": 2,
+  "name": {
+    "en": "Condition with text input"
+  },
+  "description": {
+    "en": "Simple app that takes input triggers as strings and casts them to numbers"
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Markus Persson",
+    "email": "markus@digiplace.nu"
+  },
+  "flow": {
+    "conditions": [
+      {
+        "id": "is_above",
+        "title": {
+          "en": "It is above"
+        },
+        "droptoken": "string",
+        "args": [
+          {
+            "type": "number",
+            "name": "trigger_value",
+            "placeholder": {
+              "en": "Trigger threshhold"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

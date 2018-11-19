@@ -13,6 +13,10 @@
     "tools"
   ],
   "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
   "author": {
     "name": "Markus Persson",
     "email": "markus@digiplace.nu"
